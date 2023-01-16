@@ -139,6 +139,7 @@ body {
   height: 70px;
   border-radius: 50%;
   animation: float 2s ease-in-out infinite;
+  cursor: pointer;
 }
 .footer {
   padding: 12px;
