@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #111;
+}
+.menubar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; 
+  padding: 24px;
+  background: #b82a55;
+}
+.menubar-name {
+  font-family: 'Rowdies', cursive;
+  color: #fff;
+}
+.menubar-nav {
+  display: flex;
+  gap: 32px;
+}
+.menubar-itens {
+  font-family: 'Sarala', sans-serif; 
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px
+}
+.main-start {
+  border-top: 0.4px solid #FFF2E7;
+  margin-bottom: 48px;
+}
+.main-content {
+  display: flex; 
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-around;
+}
+.main-home {
+  display: flex; 
+  flex-direction: column;
+  gap: 32px;
+}
+.main-title {
+  padding-top: 45px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 23px;
+  color: #ffffff;
+}
+.main-description {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}
+.button-add {
+  background-color: #b83961;
+  width: 180px; 
+  height: 60px; 
+  border: none;
+  border-radius: 20px; 
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px; 
+  color: #ffffff;
+}
+.button-add:hover {
+  background-color: #b81c50;
+}
+.button-help {
+  background-color: #ffffff;
+  width: 180px; 
+  height: 60px; 
+  border: none;
+  border-radius: 20px; 
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px; 
+  color: #1f1f1f;
+}
+.button-help:hover {
+  background-color: #242424;
+  color: #fff;
+}
+.menus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px; 
+  margin-top: 48px;
+}
+.menus-title {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive; 
+  font-weight: 200;
+  font-size: 24px; 
+  color: #FFF2EF; 
+  margin-bottom: 18px;
+}
+.menus-paragrafo {
+  border-bottom: 0.4px solid #2b2927; 
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 400;
+  font-size: 15px; 
+  color: #ffffffcc;
+}
+.image {
+  height: 200px;
+}
+.servers-partners {
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+}
+.servers-title {
+  padding-top: 49px;
+  font-family: 'Righteous', cursive; 
+  font-weight: 200;
+  font-size: 24px; 
+  color: #FFF2EF; 
+  margin-bottom: 18px;
+}
+.servers-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.servers-icons {
+  width: 70px; 
+  height: 70px;
+  border-radius: 50%;
+  animation: float 2s ease-in-out infinite;
+}
+.footer {
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+  background: #b82a55;
+}
+.footer-creditos {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px; 
+  color: #fff;
+}
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-30px)
+	}
+}
